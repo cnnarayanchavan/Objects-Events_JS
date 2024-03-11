@@ -20,7 +20,17 @@ const Customer = {
             console.log(`Good Evening flock....`);
         }
     },
+<<<<<<< HEAD
 
+=======
+    
+    // greetCustomer: function() {
+    //     const isMorning = this.currentDate.getHours() < 12; // Check if it's before noon
+    
+    //     console.log(isMorning ? `Good morning, ${this.name}!` : `Good afternoon/evening, ${this.name}!`);
+    //   }  
+    //this was the method in which i used in object but in this method i used ternary operator insted of if else 
+>>>>>>> 5a697be9faa4f072e5757eead2d710f45812c16d
 }
 
 console.log(Customer.greetMsg()); 
