@@ -14,4 +14,4 @@ console.log(Student.addStud);
 //lets destructur it
 
 const  { addStud : add, firstName : FN, lastName : LN, clgID : ID} = Student;  
-consol.log(add);
+console.log(add);
