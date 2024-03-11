@@ -20,6 +20,7 @@ const Customer = {
             console.log(`Good Evening flock....`);
         }
     },
+
 }
 
 console.log(Customer.greetMsg()); 

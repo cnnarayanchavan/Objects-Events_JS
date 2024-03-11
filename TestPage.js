@@ -12,7 +12,13 @@ demo1 = function() {
     else if (date.getHours() < 22) {
         console.log("Hey good evening honey");
     }
-    
 }
-const functionPerformed = demo1();
-console.log(functionPerformed);
+
+const demo2 = function () {
+    const isMorning = date.getHours() > 24;
+    console.log(isMorning ? `good mroning NARAYAN` : `Good Affternoon Narayana`);
+}
+
+console.log(demo2());
+//const functionPerformed = demo1();
+//console.log(functionPerformed);
