@@ -49,7 +49,7 @@ const Grahak_2 =
         {orderItem : "Termal Paste", orderPrice : 150, orderID : "DI4455", totalQuantity : 9}
     ], 
     StatusIsLoggedIN : true,
-    CurrDate : new Date(),
+    CurrDate : date,
     CartItemsTotal : 90000
 }
 
