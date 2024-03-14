@@ -11,3 +11,8 @@ Goals
 2] Find the order with the highest total cost:
    Iterate through the orders array again.
    Keep track of the order with the highest total cost (price multiplied by quantity) and its corresponding product        name.
+
+3] Print the following information:
+   Customer name and email
+   Total amount spent by the customer
+   Product name and total cost of the order with the highest amount spent
