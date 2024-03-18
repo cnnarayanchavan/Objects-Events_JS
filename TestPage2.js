@@ -46,6 +46,6 @@ for(let key in aajuneknavinarray){
 
 function addToCart(ItemsPrice)
 {
-    return ItemPrice;
+    return ItemsPrice;
 }
 console.log(addToCart(200));
