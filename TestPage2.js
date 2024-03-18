@@ -38,5 +38,14 @@ for (const n of navinarray) {
 
 aajuneknavinarray = [23,4,56,7,5,3];
 for(let key in aajuneknavinarray){
-    console.log(aajuneknavinarray[key]);
+    //console.log(aajuneknavinarray[key]);
 }
+
+
+//up to this was all about the looping satements for objects and functions
+
+function addToCart(ItemsPrice)
+{
+    return ItemPrice;
+}
+console.log(addToCart(200));
