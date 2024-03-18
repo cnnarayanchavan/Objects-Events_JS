@@ -5,7 +5,7 @@ Goals
 
 # Tasks for arrays and objects (Complex)
 
-![OIP](https://github.com/cnnarayanchavan/Objects-Events_JS/assets/113028954/2e1fa7dc-ed9d-47d9-b62a-ca144d90e245)
+![maxresdefault](https://github.com/cnnarayanchavan/Objects-Events_JS/assets/113028954/fa21fa21-e627-4503-80d4-20e42bea28f1)
 
 1] Calculate the total amount spent by the customer:
    Iterate through the orders array within the customer object.
