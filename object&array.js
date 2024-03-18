@@ -1,7 +1,7 @@
 // learning about the complex object, complex function and complex array.
 let currDate = new Date();
 date = currDate.toDateStrng;
-let Grahak = 
+const Grahak = 
 {
     Name : {
         firstName : "Narayan",
@@ -59,7 +59,7 @@ const Grahak_2 =
 // Calculate the total amount spent by the customer:
 // Iterate through the orders array within the customer object.
 // For each order, multiply the product price by the quantity and add it to a running total.
-//in output modify the day=te to string
+//in output modify the date to string
 //console.log(Grahak);
 function printGrandTatal()
 {
