@@ -44,8 +44,8 @@ for(let key in aajuneknavinarray){
 
 //up to this was all about the looping satements for objects and functions
 
-function addToCart(ItemsPrice)
+function addToCart(...ItemsPrice)
 {
     return ItemsPrice;
 }
-console.log(addToCart(200));
+console.log(addToCart(200,300,400));
