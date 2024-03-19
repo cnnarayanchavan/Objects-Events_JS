@@ -23,7 +23,7 @@ greetMsg("Narayana");
 
 //lets make this arrow function 
 
-(((username)=>{
+((username)=>{
   console.log(` ${username}, your db2 is connected`)
 })("Nitin")
 
