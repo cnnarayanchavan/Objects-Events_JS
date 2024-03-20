@@ -19,4 +19,7 @@ Goals
    Customer name and email
    Total amount spent by the customer
    Product name and total cost of the order with the highest amount spent
+
+
+   Exam Started (In-Semester) From 20 to 27
    
