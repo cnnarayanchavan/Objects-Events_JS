@@ -9,9 +9,10 @@ greetMsg("Narayana");
 
 //this is the common way of defining the function 
 
-(function greetMsg2(username){
+(function greetMsg2(username){                  //so this is the named IIFE
   console.log(` ${username}, your db2 is connected`)
-})("Nitin")
+})("Nitin");                             //here the immediately invoked function is executed but it don't know where to stop the context 
+                                        // so we have to put the semicolon here to stop the executation and execute the next function 
 
 //so here this is the IIEF where we called function immediatelt using parenthesis.
 
@@ -23,9 +24,9 @@ greetMsg("Narayana");
 
 //lets make this arrow function 
 
-((username)=>{
-  console.log(` ${username}, your db2 is connected`)
-})("Nitin")
+((username)=>{                                           //so this is the unnamed IIFE
+  console.log(` ${username}, your db3 is connected`)
+})("renuks")
 
 
 
