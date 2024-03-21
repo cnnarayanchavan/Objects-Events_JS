@@ -8,7 +8,7 @@ function add2Num(val1, val2){
   return result;
 }
 console.log(add2Num(num1, num2));
-add2Num(45,45);
+console.log(add2Num(45,45));
 
 
               //SO HERE
