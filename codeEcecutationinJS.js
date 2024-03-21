@@ -12,5 +12,11 @@ add2Num(45,45);
 
 
               //SO HERE
+                                  //This is First Cycle
+              //First ::  Global Ex_Fun and assign to =========== this(keyword)
+              //Second ::  Memory Phase ====(ALL VARIABLES GET STORED IN IT WITH UNDEFINED VALUE)  
 
-              //first Global Ex_Fun and assign to =========== this(keyword)
+                                  //Second Cycle (Executation phase)  data manipulation
+
+              //Third ::  variable get their values
+
