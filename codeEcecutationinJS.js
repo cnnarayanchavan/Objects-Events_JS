@@ -18,5 +18,5 @@ add2Num(45,45);
 
                                   //Second Cycle (Executation phase)  data manipulation
 
-              //Third ::  variable get their values
+              //Third ::  variable get their values from user or pri-defined 
 
