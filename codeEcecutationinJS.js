@@ -7,7 +7,7 @@ function add2Num(val1, val2){
   let result = val1 + val2;
   return result;
 }
-add2Num(num1, num2);
+concole.log(add2Num(num1, num2));
 add2Num(45,45);
 
 
