@@ -1,7 +1,8 @@
 //for of loop for Arrays 
 
 const myArray = ["Java", "Sql", "C", "C++", "Linux", "Git-Hub", "HTML", "Javascript", "MS Excel"]
-for (const keys of myArray) {
+for (const keys of myArray) 
+{
     //console.log(keys);
     //console.log(myArray);
     // console.log(myArray[keys]);
