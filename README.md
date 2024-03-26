@@ -20,6 +20,6 @@ Goals
    Total amount spent by the customer
    Product name and total cost of the order with the highest amount spent
 
-Red Code : Missed the day 25th march 
+Red Code : Missed the day 25th march forgot to do contribution n now it's sucks 
    
    
