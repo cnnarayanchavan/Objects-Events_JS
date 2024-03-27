@@ -1,4 +1,4 @@
-data from db about the books and its gener etc
+//data from db about the books and its gener etc
 const books = [
     { title: 'Book One', genre: 'Fiction', publish: 1981, edition: 2004 },
     { title: 'Book Two', genre: 'Non-Fiction', publish: 1992, edition: 2008 },
