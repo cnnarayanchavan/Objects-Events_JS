@@ -20,10 +20,8 @@ console.log(node1)
 //like this 
 // try to access the multipel property from an object array
 
-const bk = books.filter( (nodeq)=>{
-    if(node1.genre === "Non-Fraction" || node1.edition = 2010")
-    {
-        console.log(bk)    
-    }
+const node2= books.filter( (bk2)=>{
+  if (bk2.genre === "Non-Fiction" || bk2.edition ==2010) {
+    return node2
+  }
 } )
-    
