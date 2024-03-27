@@ -16,3 +16,12 @@ const books = [
 const node1 = books.filter( (prop)=> prop.genre === "Non-Fiction")
 console.log(node1)
 
+//NOTE ::  here if we use the scope means that the curly breses for the arrow function then we have to retunn the variable defined inside that scope of curly breses
+//like this 
+// try to access the multipel property from an object array
+
+const bk = books.filter( (node1)=>{
+    if(node1.genre === "Non-Fraction" || node1.edition = 2010"){
+        console.log(bk)
+    }
+} )
