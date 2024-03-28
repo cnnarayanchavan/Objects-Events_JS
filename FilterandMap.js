@@ -41,5 +41,5 @@ const node4 = books.map( (temp2)=>
     console.log(temp2)
   }
 } )
-             const node5 = books.map((temp3)=>{return genre==="Fiction && genre==="Non-Fiction"})
+             const node5 = books.map((temp3)=>{return temp3.genre === "Fiction"  &&  temp3.genre === "Non-Fiction" })
                  console.log(node5)
