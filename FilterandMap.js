@@ -8,7 +8,7 @@ const books = [
     { title: 'Book Six', genre: 'Fiction', publish: 1981, price: 2010 },
     { title: 'Book Seven', genre: 'History', publish: 1981, price: 1996 },
     { title: 'Book Eight', genre: 'Science', publish: 2011, price: 2016 },
-    { title: 'Book Nine', genre: 'Non-Fiction', publish: 2001, price: 1989 },
+    { title: 'Book Nine', genre: 'Non-Fiction', publish: 1999, price: 1989 },
   ];
 
 // filter according to the problem statement 
@@ -33,4 +33,11 @@ const node2= books.filter( (bk2)=>{
 // problem statement : print the total of price of books whose year of publich in between 1900 to 2000
 
 const node3 = books.map( (temp1)=>{ return temp1.publish>=1900 || temp1.publish<2000} )
-console.log(node3)
+//console.log(node3)
+
+const node4 = books.map( (temp2)=> 
+{
+  if (temp2.publish>1900 && temp2.publish<1999) {
+    console.log(temp2)
+  }
+} )
