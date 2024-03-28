@@ -41,4 +41,9 @@ const node2= books.filter( (bk2)=>{
 // } )
 
 
+PS3 : Print the total addition of price of all books uning reduce 
+
+const node4 = books.reduce((acc,temp1) => (acc+temp1.price),0)
+console.log(node4);
+
 
