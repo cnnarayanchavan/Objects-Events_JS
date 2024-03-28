@@ -32,14 +32,13 @@ const node2= books.filter( (bk2)=>{
 
 // problem statement : print the total of price of books whose year of publich in between 1900 to 2000
 
-const node3 = books.map( (temp1)=>{ return temp1.publish>=1900 || temp1.publish<2000} )
-//console.log(node3)
+// const node3 = books.map( (temp1)=>{ 
+//   if (temp1.publish>=1900 || temp1.publish<2000) 
+//   {
+   
+//   }
+//   console.log(node3)
+// } )
 
-const node4 = books.map( (temp2)=> 
-{
-  if (temp2.publish>1900 && temp2.publish<1999) {
-    console.log(temp2)
-  }
-} )
-             const node5 = books.map((temp3)=>{return temp3.genre === "Fiction"  &&  temp3.genre === "Non-Fiction" })
-                 console.log(node5)
+
+
