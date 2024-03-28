@@ -23,7 +23,7 @@ const node1 = books.filter( (prop)=> prop.genre === "Non-Fiction")
 const node2= books.filter( (bk2)=>{
   return  bk2.genre === "Non-Fiction" || bk2.edition ==2010
 } )
-console.log(node2);
+//console.log(node2);
 
 
 
