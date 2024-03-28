@@ -1,5 +1,5 @@
 //data from db about the books and its gener etc
-const books = [
+const books = [ 
     { title: 'Book One', genre: 'Fiction', publish: 1981, edition: 2004 },
     { title: 'Book Two', genre: 'Non-Fiction', publish: 1992, edition: 2008 },
     { title: 'Book Three', genre: 'History', publish: 1999, edition: 2007 },
@@ -14,14 +14,13 @@ const books = [
 // filter according to the problem statement 
 
 const node1 = books.filter( (prop)=> prop.genre === "Non-Fiction")
-console.log(node1)
+//console.log(node1)
 
 //NOTE ::  here if we use the scope means that the curly breses for the arrow function then we have to retunn the variable defined inside that scope of curly breses
 //like this 
 // try to access the multipel property from an object array
 
 const node2= books.filter( (bk2)=>{
-  if (bk2.genre === "Non-Fiction" || bk2.edition ==2010) {
-    return node2
-  }
+  return  bk2.genre === "Non-Fiction" || bk2.edition ==2010
 } )
+console.log(node2);
