@@ -24,7 +24,8 @@ Goals
 *from tomorrow onwards we'll be starting the Exceptation Handeling in which we''be discussing different points as mention below
 
 
-# Starting React Native from 22nd may 2024 (Jdbc & REST,SDLC)
+# Starting React Native from 22nd may 2024 
+# (Jdbc & REST,SDLC)
 
 
    
