@@ -25,7 +25,7 @@ Goals
 
 
 # Starting React Native from 22nd may 2024 
-# (Jdbc & REST)
+# (Jdbc & REST, WordPress)
 
 
    
